@@ -2,12 +2,8 @@ import React, { useState, useEffect } from "react";
 import {
   Container,
   AppBar,
-  Typography,
-  Grow,
-  Grid,
-  
+  Typography,  
 } from "@material-ui/core";
-import { useDispatch } from "react-redux";
 
 import useStyles from "./styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
